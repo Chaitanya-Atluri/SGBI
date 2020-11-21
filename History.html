@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="History.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>History</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header></header>
+    <img src="HistoryImages/History.JPG" width="100%" class="hisImage">
+    <div id="mainContent">
+        <div class="headingArrow">
+            <p class="contentArrow">History</p>
+        </div>
+        <hr class="hrLine">
+        <div>
+            <p id="hisContent">
+                <i class="fa fa-quote-left" style="font-size: 25px; color: green;"></i>
+                At the beginning of 2019, the Naveen Jindal School of Management (JSOM) 
+                received funds from the Ann andJack Graves Charitable Foundation. 
+                The two primary objectives of that fund are to support the school’s 
+                studyabroad programs and to form a new partnership with academic and 
+                economic institutions in developing countries,specifically in African 
+                countries. This fund inaugurated the establishment of the Sustainable Global BusinessInitiative.
+                <br><br>
+                In summer 2019, a group of students from the Naveen Jindal School of Management Global 
+                Business programwere selected and sent to Africa as part of this initiative. 
+                These students became the first members of the Societyof Sustainable Business (SSB), 
+                a Jindal School student organization
+                <br><br>
+                Other main activities of the SGBI is to organize biannual conferences, workshops, 
+                seminars and networkingevents among business leaders, not only to increase awareness 
+                but also to establish a partnership among themto fight poverty and eliminate destitution
+            </p>
+        </div>
+    </div>  
+    <footer></footer>
+    <script>
+        fetch("./Header.html")
+        .then(response => {
+            return response.text()
+        })
+        .then(data => {
+            document.querySelector("header").innerHTML = data;
+        });
+
+        fetch("./Footer.html")
+        .then(response => {
+            return response.text()
+        })
+        .then(data => {
+            document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+</body>
+</html>

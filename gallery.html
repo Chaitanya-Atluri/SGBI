@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="gallery2.css"/>
+<script>
+fetch("./Header.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("header").innerHTML = data;
+  });
+
+fetch("./Footer.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("footer").innerHTML = data;
+  });
+</script>
+
+
+
+</head>
+<body>
+
+<!--picture and text-->
+<header></header>
+
+	<div class= "container-fluid">
+		<div id = "page1" class = "row align-items-center">
+			<div class="col-xl-4 col-md-6 block1">	
+			     <img class = "page1pic" src = "./img/firstpage1.jpg">
+			     <p>Mike Redeker <span id = "name">Dr.Habte Woldu</span></p>
+                 <p class = "text">
+					The SGBI led by Dr. Habte Woldu is a collaboration between the Naveen Jindal 
+                    School of Management (JSOM) at The University of Texas at Dallas (UTD) and the 
+                    Ann & Jack Graves Charitable Foundation, represented by Mike Redeker. The main goal of the initiative is to raise awareness and alleviate poverty by engaging in various social projects and by hosting a conference to initiate dialogues between various organizations. 
+				</p>
+			</div>
+			<div class="col-xl-4 col-md-6 block1">
+				<img class = "page1pic" src = "./img/firstpage2.jpg">
+        		<p class = "introPic">
+				    (L-R: Matthew Kelly, MS International Management Studies; Amanda Feller, BS Global Business; Hassan Seoudi, BS Global Business; Fahad Kazi, BS International Political Economy; Kathryn Slaughter, BS Global Business; and Dr. Habte Woldu)
+				</p>
+				<p class = "text">
+					The initiative also funded a sustainable business project that UTD students developed for a year. Later,these students founded the Society of Sustainable Business (SSB), a student organization at JSOM.
+				</p>
+			</div>
+	        
+			<div class="col-xl-4 col-md-6 block1">
+				
+					<img class = "page1pic" src = "./img/firstpage3.jpg">
+				
+					<p class = "text">
+					    The business project took place in Tigray, the northern part of Ethiopia, where the students teamed up withthe local Mekelle University. Here, the students implemented a fruit dehydration business which started with creating a business plan, proposal, and timeline. Eventually, the students implemented it successfully by bringing all the stakeholders on board.
+				    </p>
+			</div>
+
+		</div>
+        <div class = "row gap">	
+        </div>
+		<div id = "page2" class = "row">
+		      <div class="col-xl-3 col-md-6 block2" >
+		   	     <img class = "page2pic" src="./img/secondpage1.jpg">
+		         <p class = "introPic">
+		         	UTD students pump water at the village well for the renovation of the building that was used for the fruit dehydration factory.
+		         </p>
+		         <p class = "text">
+		         	The partnership between the students and the local stakeholders not only focused on the conceptual level but also on achieving practical results.
+		         </p>
+		      </div>
+		      <div class="col-xl-3 col-md-6 block2">
+				 <img class = "page2pic" src="./img/secondpage2.jpg">
+				 <p class = "text">
+			     	The picture above shows the students carrying the water purifier machine that was used for the dehydrator machine, essential to operate the business. To obtain the needed equipment, the students sourced a commercial dehydrator from South Arica, where they also learned how to set it up and operate it properly.
+			     </p>
+		      </div>
+		      <div class="col-xl-3 col-md-6 block2"> 
+				 <img class = "page2pic" src="./img/secondpage3.jpg">
+			     <p class = "text">
+			     	Hubert Zydorek (right), one of the SSB's advisors, supervised the students at the preparation for the business' opening day. Plan, establish, catalyze.
+			     </p>
+		      </div>
+		      <div class="col-xl-3 col-md-6 block2">
+				 <img class = "page2pic" src="./img/secondpage4.jpeg">
+			     <p class = "text">
+			     	Members of the Ethiopian Sustainability Project team gathered in the warehouse that was used for the fruit dehydration business. The team negotiated with Ethiopian government to procure the facility, which Friats rent for roughly $30 per month.
+			     </p>
+		      </div>
+	    </div>
+	    <div class = "row gap">	
+        </div>
+
+	    <div id = "page3" class = "row">
+		      <div class="col-xl-3 col-md-6 block2" >
+		   	     <img class = "page2pic" src="./img/thirdpage1.jpg">
+		         <p class = "text">
+		         	The business’ objective was to alleviate poverty by empowering women with entrepreneurial skills and spirit. aligned with two Sustainable Development Goals formulated by the United Nations to transform our world; specifically, No Poverty (Goal No. 1) and Gender Equality (Goal No. 5).
+		         </p>
+			
+		      </div>
+		      <div class="col-xl-3 col-md-6 block2">
+			     
+				 <img class = "page2pic" src="./img/thirdpage2.jpg">
+			     <p class = "text">
+			     	Skills and knowledge transfer to the female owner-operators was crucial to ensuring that they can continue to successfully operate the business independently and generate a sustainable income for their households.
+			     </p>
+		      </div>
+		      <div class="col-xl-3 col-md-6 block2">
+				 <img class = "page2pic" src="./img/thirdpage3.jpg">
+			     <p class = "text">
+			     	After the UTD students returned to Dallas, the responsibility for the business' daily operations was turned over to the owner- operators. These newly empowered women will now manage production of the dehydrated fruits, packaging of the product, and final distribution to the customer.
+			     </p>
+		      </div>
+		      <div class="col-xl-3 col-md-6 block2">
+			     
+				 <img class = "page2pic" src="./img/thirdpage4.jpg">
+			     <p class = "text">
+			     	The photo above shows the final product of the Friats Dehydration Association. This product is now distributed to hotels, day care facilities, and universities. Lessons learned from this project will serve as a precedent in other emerging countries.
+			     </p>
+			
+		      </div>
+	    </div>
+		
+	</div>
+<footer></footer>
+</body>
+</html>

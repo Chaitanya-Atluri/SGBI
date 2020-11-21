@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Acknowledgement</title>
+	    <!-- header-->
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="acknowledgement.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<script>
+fetch("./Header.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("header").innerHTML = data;
+  });
+
+fetch("./Footer.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("footer").innerHTML = data;
+  });
+</script>
+
+
+
+
+</head>
+<body>
+<header></header>
+
+<img id = "hand" src="img/hand1.png">	
+
+<div class = "container">
+   <div id = "yellowrow"><p id = "partner">Acknowledgement</p></div>
+   <hr class="style1">
+   <h1 class = "link">
+     Ann and Jack Graves Charitable Foundation
+   </h1>
+   <p class = "text">
+   	We would like to express our deepest appreciation and gratitude to the Ann and Jack Graves Charitable Foundation for supporting the global business program in the Jindal School of Management. The Foundation's contribution has benefited students, faculty, and the broader community at the UT Dallas campus and around the world. The funding provided by the Foundation assists students who are taking part in international travel and study abroad experiences, with a particular focus on Africa. The Foundation also supports activities and development of the SGBI at the Jindal School of Management at UT Dallas.
+   </p>
+   <div id = "people">
+   	<img  src="img/partner.jpg">
+   </div>
+   <p class = "text">
+   	Mike Redeker MBA'97, MA'01, who helps administer his family foundation, was inspired by his own experiences as a student to support study abroad efforts at the Jindal School. "The reason we directed funding to UT Dallas is to employ the tools available in the Jindal School to address how we can best help the world's poor," Redeker said. "I believe that UTD can partner with universities in developing economies to listen to the needs of communities, help them develop sustainable business solutions, and help measure the results so we can constantly improve the model."
+   	<a id = "readbutton" href="https://jindal.utdallas.edu/files/utd_aspire_spring_2015.pdf">Read more here</a>
+   </p>
+
+</div>
+<div id = "arrow">
+  
+</div>
+<div id = "gap"></div>
+<footer></footer>
+</body>
+</html>

@@ -1,0 +1,134 @@
+/*body{
+	font-family: 'Montserrat', sans-serif;
+
+}*/
+
+#page1{
+	position: relative;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.block1{
+	position: relative;
+	z-index: 2;
+}
+#page1:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.1;
+    background-image: url('./img/tree.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+#name{
+	margin-left: 150px;
+}
+
+
+#page2{
+	position: relative;
+	overflow: hidden;
+}
+
+#page2:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.1;
+    background-image: url('./img/tree.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+#page3{
+	position: relative;
+	overflow: hidden;
+}
+#page3:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.1;
+    background-image: url('./img/tree.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.text{
+	font-family: 'Lora', serif;
+	margin-top: 30px;
+	font-size: 18px;
+	text-align: left;
+	padding-left:20px;
+	padding-right:20px; 
+}
+.introPic{
+	margin-top: 40px;
+	text-align: center;
+	font-size: 14px;
+	padding-left:20px;
+	padding-right:20px; 
+}
+#head{
+	width: 100%;
+	height: 125px;
+
+}
+.page1pic{
+	float: none;
+	max-width: 90%;
+    margin-top:20px;
+	height: 300px;
+	width: 300px;
+}
+.page2pic{
+	
+	margin-top:20px;
+	margin-bottom:20px;
+	max-width: 300px;
+	height: 300px;
+}
+.block1{
+	
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+    /*width:600px;*/
+    /*border: 2px solid black;*/
+}
+
+.gap{
+	height: 100px;
+}
+.block2{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+#page3{
+    margin-bottom: 200px;
+	/*border: 2px solid black;*/
+}
+
+
+
+

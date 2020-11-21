@@ -1,0 +1,42 @@
+* {box-sizing: border-box}
+body{
+    margin: 0px;
+}
+
+.headingArrow{
+    width: 250px;
+	height: 55px;
+	background: #e87500;
+    clip-path: polygon(78% 16%, 85% 50%, 79% 78%, 0 79%, 5% 50%, 0 16%);
+}
+.contentArrow{
+    padding: 7%;
+    margin: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#mainContent{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.hrLine{
+    margin-top: -0.5%;
+}
+blockquote {
+    border:none;
+}
+
+blockquote:before { 
+    content: open-quote;
+    font-weight: bold;
+    font-size:50px;
+    color:#889c0b;
+} 
+
+#hisContent{
+    text-align: justify;
+}
+
+.hisImage{
+    object-fit: fill;
+}

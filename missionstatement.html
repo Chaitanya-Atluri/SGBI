@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mission Statement</title>
+      <!-- header-->
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="mission.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<script>
+fetch("./Header.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("header").innerHTML = data;
+  });
+
+fetch("./Footer.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("footer").innerHTML = data;
+  });
+</script>
+
+</head>
+<body>
+  <header></header>
+	<img id = "tree1" src="./img/tree1.jpg">
+  <div class = "container">
+  	<div id = "yellowrow"><p id = "mission">Mission Statement</p></div>
+    <hr class="style1">
+	<p class = "text">
+		<i class="fa fa-quote-left" style="font-size: 20px; color: #e87500;"></i>
+		The Sustainable Global Business Initiative within the Naveen Jindal School of Management at The University of Texas at Dallas promotes efforts to cultivate sustainable economic initiatives that improve access to sustainable livelihoods, entrepreneurial opportunities and poverty alleviation in the poorest African countries. SGBI also works closely with DFW-based corporations that include sustainability in their mission and vision.
+	</p >
+
+	<P class = "text">
+		The mission of this initiative is inspired by <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">the United Nations’ 17 Sustainable Development Goals (SDG)</a>, with a focus on SDG Goal 1: No Poverty.
+	</P>
+	<p id = "sgbi">The SGBI plans to act on its mission by:</p>
+	<ul>
+		<li class = "text list">
+			Improving access to sustainable livelihoods, entrepreneurial opportunities and productive resources
+		</li>
+		<li class = "text list">
+			Providing universal access to basic social services
+		</li>
+		<li class = "text list">
+			Progressively developing social protection systems to support those who cannot support themselves
+		</li>
+		<li class = "text list">
+			Empowering people living in poverty and their organizations
+		</li>
+		<li class = "text list">
+			Addressing the disproportionate impact of hardships on women
+		</li>
+		<li class = "text list">
+			Working with interested donors and recipients to alleviate poverty by focusing on the most affected societal groups in representative African countries
+		</li>
+		<li class = "text list">
+			Reinforcing international cooperation for poverty eradication.
+		</li>
+	</ul>
+	<p>
+		<a href="https://www.un.org/sustainabledevelopment/">
+        <img id = "goals" src="./img/goals.png">
+	</p>	
+  </div>
+
+<footer></footer>
+</body>
+</html>

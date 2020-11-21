@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="about-us.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+fetch("./Header.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("header").innerHTML = data;
+  });
+
+fetch("./Footer.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("footer").innerHTML = data;
+  });
+</script>
+</head>
+<body>
+  <header></header>
+
+<div class="contain">
+  <img src="img/jsom.jpg" alt="Cinque Terre" class="image"></img>
+  <div class="bottomright"><h1>ABOUT US</h1></div>
+</div>
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-10">
+<i class="fas fa-quote-left" style="color:orange;"></i>
+  <p class="content">
+  SGBI globally supports and manages such activities as poverty The Sustainable Global Business Initiative (SGBI) is a collaborative
+initiative between the Ann and Jack Graves Charitable Foundation and the Center for Global Business at The University of Texas at
+Dallas. The goal of the initiative is to promote economic advancement and poverty alleviation in developing countries, specifically
+focusing on African economies. SGBI supports and manages a wide range of activities, including developing sustainable business
+plans to empower people living in poverty, supporting academic conferences and workshops by networking and collaborating with
+African universities, evaluating the efficiency of economic development efforts in emerging economies, issuing an annual report and
+hosting recurring meetings with students and guest speakers. This initiative also provides scholarships for students and supports
+faculty conducting international sustainable poverty alleviation projects, with a particular focus on Africa.
+  </p>
+  <img src="img/abs.jpg" class="image-1"></img>
+  <p >
+  Africa, as a target region of the SGBI, is a continent with immense natural and
+human resources as well as great cultural, ecological and economic diversity;
+however, it remains underdeveloped. The world’s poverty is increasingly
+concentrated within Africa. The United Nations Department of Economic and
+Social Affairs recently estimated that extreme poverty in the continent could rise
+further<a class="about" href="https://wiso.uni-koeln.de/en/praxis/wisoalumni/wiso-alumni-im-focus/denis-rueggeberg"> — by about 60 million people by 2030</a>. SGBI understands that
+decelerating Africa’s deprivation is a global responsibility that comes with
+impediments. It requires more effort and teamworak among many stakeholders to
+improve the quality of life in Africa, which has become SGBI’s pressing mission.
+
+  </p>
+</div>
+<div class="col-1">
+</div>
+</div>
+
+
+<!--heading-->
+<div class="row">
+<div class="col-1">
+<!--border-->
+</div>
+<div class="col-10">
+<div class="row">
+<div class="col-4" style="padding-top:20px;">
+<h3 class="head-2"><b style="color:#ffffff;">OUR TEAM</b></h3>
+</div>
+<div class="col-7">
+<!--border-->
+</div>
+<hr style="width:100%;text-align:left;margin-left:0;border: 2px solid black;border-radius: 2px;">
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-1">
+</div>
+
+<div class="card col-5" >
+  <div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="img/hw.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Dr. Habte Woldu</h5>
+        <p class="card-text">Director</p>
+		<p class="card-text">Email: wolduh@utdallas.edu</p>
+		<p class="card-text">Phone: (972) 883-6357</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="card col-5" >
+  <div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="img/if.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Imelda Freddy</h5>
+        <p class="card-text">Administrative Assistant</p>
+		<p class="card-text">Email: imelda.freddy@utdallas.edu</p>
+		<p class="card-text">Phone: (972) 883-5173</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-1">
+</div>
+
+
+</div>
+
+  <footer></footer>
+</body>
+
+</html>

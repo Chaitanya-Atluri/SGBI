@@ -1,0 +1,48 @@
+body{
+	font-family:Open Sans Extra Bold	;
+}
+
+.head-2
+{
+background: #e87500;
+padding:10px 10px 10px 30px;
+clip-path: polygon(96% 0, 100% 49%, 96% 100%, 0 100%, 2% 50%, 0 0);
+width:100%;
+height:auto;
+font-size:2vw;
+text-align:center;
+}
+.arrow
+{
+	margin:0px;
+	padding:0px;
+	text-align:right;
+}
+
+div.bg-ash{
+	background-color:#d2d9d4;
+	padding:0px;
+}
+.content
+{
+	display:flex;
+	padding:10px;
+	
+}
+.image
+{
+width:100%;
+height:auto;
+}
+.image-2	
+{
+width:50%;
+height:auto;
+float:left;
+margin:10px;
+margin-right:50px;
+}
+.blog{
+	background-color:orange;
+	color:white;
+}

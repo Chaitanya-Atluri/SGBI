@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Advisory.css"> 
+    <title>Advisory</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header></header>
+    <div id="advFirst">
+        <img src="AdvisoryImages/Advisory2.png" width="100%" class="advImage">
+        <div class="text-block">
+            <h1>ADVISORY BOARD</h1>
+        </div>
+    </div>
+    <div id="mainAdvisory">
+        <div id="advisoryLeftDiv">
+            <ul class="advisoryList">
+                <li class="advisoryListItem">
+                    <div class="eachAdvisoryDiv">
+                        <div>
+                            <img src="AdvisoryImages/woldu.jpg" width="100px" height="100px" class="advisoryImgs">
+                        </div>
+                        <div class="description">
+                            <p>Dr.Habte Woldu(Chairman)</p>
+                            <p>Director of SGBI</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="advisoryListItem">
+                    <div class="eachAdvisoryDiv">
+                        <div>
+                            <img src="AdvisoryImages/mike.png" width="100px" height="100px" class="advisoryImgs">
+                        </div>
+                        <div class="description">
+                            <p>Mike Redeker</p>
+                            <p>Ann and Jack Graves Foundation</p>            
+                        </div>
+                    </div>
+                </li>
+                <li class="advisoryListItem">
+                    <div class="eachAdvisoryDiv">
+                        <div>
+                            <img src="AdvisoryImages/shumba.jpg" width="100px" height="100px" class="advisoryImgs">
+                        </div>
+                        <div class="description">
+                            <p>Gabriel Shumba</p>
+                            <p>Founder of Shumba Group</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="advisoryListItem">
+                    <div class="eachAdvisoryDiv">
+                        <div>
+                            <img src="AdvisoryImages/nikung.jpg" width="100px" height="100px" class="advisoryImgs">
+                        </div>
+                        <div class="description">
+                            <p>Nikunj Nirmal</p>
+                            <p>Director of Information Technology and Shadow Board Member, Tech Mahindra</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="advisoryRightDiv"> 
+            <ul class="advisoryList">
+                <li class="advisoryListItem">
+                    <div class="eachAdvisoryDiv">
+                        <div>
+                            <img src="AdvisoryImages/peng.jpg" width="100px" height="100px" class="advisoryImgs">
+                        </div>
+                        <div class="description">
+                            <p>Dr.Mike Peng</p>
+                            <p>O.P. Jindal Distinguished Chair of Global Strategy,UT Dallas;Executive Director, Center for Global Business</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="advisoryListItem">
+                    <div class="eachAdvisoryDiv">
+                        <div>
+                            <img src="AdvisoryImages/hubert.jpg" width="100px" height="100px" class="advisoryImgs">
+                        </div>
+                        <div class="description">
+                            <p>Hubert Zydorek</p>
+                            <p>Director of SGBI</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer></footer>
+    <script>
+        fetch("./Header.html")
+        .then(response => {
+            return response.text()
+        })
+        .then(data => {
+            document.querySelector("header").innerHTML = data;
+        });
+
+        fetch("./Footer.html")
+        .then(response => {
+            return response.text()
+        })
+        .then(data => {
+            document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+.contain {
+  position: relative;
+  margin:0%;
+  padding:0%;
+}
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 100px; //height of the footer
+  box-sizing: border-box;
+}
+
+footer {
+  position: f;
+  bottom: 0;
+  height: 1vh;
+}
+.content
+{
+	display:flex;
+}
+.card{
+	border:none;
+}
+.card-text{
+	padding:0px;
+	margin:0px;
+}
+.head-2
+{
+background: #e87500;
+padding:10px 10px 10px 30px;
+clip-path: polygon(96% 0, 100% 49%, 96% 100%, 0 100%, 2% 50%, 0 0);
+width:100%;
+height:auto;
+font-size:2vw;
+}
+.bottomright {
+  width:40%;
+  height:30%;
+  position: absolute;
+  bottom: 5%;
+  right:5%;
+  background-color:#ffffff;
+  opacity: 0.8;
+  padding:3% 5% 5% 10%;
+}
+.bottomright>h1{
+	font-size:4vw;
+}
+.image-1
+{
+	width:40%;
+  height:auto;
+  float:left;
+  margin:10px;
+}
+.image{ 
+  width:100%;
+  height:auto;
+  margin:0%;
+}
+.about{
+	background-color:orange;
+	color:white;
+}

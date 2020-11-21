@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"rel="stylesheet">
+		    <!-- header-->
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Contact.css">
+
+  <script>
+fetch("./Header.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("header").innerHTML = data;
+  });
+
+fetch("./Footer.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("footer").innerHTML = data;
+  });
+</script>
+
+</head>
+<body>
+	<header></header>
+	<div class = "block block1 row">
+		<div class="col-xl-6 col-md-6">
+			<div id = "text1" >
+				<div class = "yellowrow1">
+					<div id = "support">
+						SUPPORT US
+					</div>
+				</div>
+			    <hr class="style1">
+			    <div class="text">
+				 <p>
+			 	     We are grateful for all the support and donations for our mission and      program! All the donations will be used to support our mission to promote sustainability and alleviate poverty. You may donate online through the Giving Page.
+			     </p> 
+			     <div id = "button"><a href="https://giving.utdallas.edu/jsom">Make a Gift</a></div>	
+			     </div>
+			</div>
+		</div>
+		<div class="col-xl-6 col-md-6">
+			<div id = "contactImage1" >
+				<img src="./img/contact1.jpg">
+			</div>
+		</div>
+	</div>
+	<div class = "block row" id = "block2">
+		<div class="col-xl-6 col-md-6">
+		    <div id = "contactImage2">
+			    <img src="./img/contact2.jpg">
+		    </div>				
+		</div>	
+		<div class="col-xl-6 col-md-6">
+		    <div id = "text2">
+			    <div id = "yellowrow2">
+			    	<div id = "volunteer">
+			    		VOLUNTEER
+			    	</div>
+			    </div>
+			     <hr class="style1">
+			     <div class = "text" id = "volunteertext">
+			        <p>
+			 	       We welcome all active UT. Dallas students who want to volunteer to help with our    programs. Our volunteers will be involved in various SGBI activities, such as    organizing events, researching, writing articles, updating social media, maintaining the SGBI website, and much more!
+			        </p>
+			        <P>
+			 	       Please email <strong>Dr. Habte Woldu (wolduh@utdallas.com)</strong>to discuss your    interests as a volunteer for the SGBI.
+			        </P>
+			     </div>
+		    </div>			
+		</div>		
+	</div>
+
+	<div class = "block row">
+		<div class="col-xl-5 col-md-6">
+		    <div id = "text3">
+		    	<div class = "yellowrow3">
+		    		<div id = "contact">
+		    			CONTACT US
+		    		</div>
+		    	</div>
+			     <hr class="style1">
+			     <div id = "contactinfo">
+			 	    <div>
+			            <p class="address">
+			 	        <strong>Mailing Adresses:</strong>
+			            </p>
+			            <p class="address">Dr. Habte Woldu</p>
+			            <p class="address">University of Texas at Dallas</p>
+			            <p class="address">Jindal School of Management</p>
+			            <p class="address">800 W Campbell Rd, Richardson, TX 75080</p>			 		
+			 	    </div>
+			        <p id = "phone"><strong>Phone:</strong> (972) 883-6357</p>
+			    <p><strong>Email:</strong> wolduh@utdallas.edu</p>			 	
+			 </div>
+		    </div>			
+		</div>
+        <div class="col-xl-7 col-md-6">
+		    <div id = "contactImage3">
+			    <img src="./img/contact3.jpg">
+		    </div>        	
+        </div>
+	</div>
+<footer></footer>
+</body>
+</html>

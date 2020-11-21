@@ -1,0 +1,54 @@
+.p1{
+	background-image: linear-gradient(rgb(19, 109, 75) 0%, rgb(21, 71, 52) 100%);
+	
+}
+body{
+	font-family:Open Sans Extra Bold;
+}
+.contact>h2{
+	font-size:20px;
+		font-weight:bold;
+
+}
+.contact>h3{
+	font-size:16px;
+}
+.p2{
+	text-align:center;
+	background-color:#525355;
+	
+}
+.row {
+  display: flex;
+}
+.contact{
+	margin-left:10px;
+}
+
+/* ul
+{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	padding-top:20px;
+}
+li
+{
+    text-align:left;
+    display: table-row;
+} */
+
+
+#Social li{
+    display:inline;
+	font-size:25px;
+	padding:5px;
+	float:right;
+	
+
+}
+a i{	
+	color:white;
+}

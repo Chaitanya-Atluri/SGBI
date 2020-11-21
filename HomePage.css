@@ -1,0 +1,211 @@
+* {box-sizing: border-box}
+
+body{
+    margin: 0px;
+}
+
+.slideshowContainerMain{
+    background-image: url("HomePageImages/bgSlideShow.jpg");
+    height: 450px;
+    background-size: cover;
+    width: 100%;
+    padding-top: 30px;
+}
+.mySlides{
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    display: none;
+    flex-direction: row;
+    background-color:rgba(255, 255, 255, 0.7);
+}
+.left{
+    width: 30%;
+    margin-left:60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.right{
+    width:70%;
+    margin-left:30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.leftImgs{
+    width: 100%;
+    height: 100%;
+}
+
+.prevclass, .nextclass {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+.nextclass {
+    right: 5%;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prevclass:hover, .nextclass:hover {
+    background-color: gray;
+}
+  
+.fadingclass {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+#centerDiv{
+    border-top: 15px solid green;
+    border-bottom: 15px solid green;
+    margin-bottom: 2%;
+}
+
+.centerImgClass{
+    padding: 5%;
+}
+
+#contentInCenter{
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.7);
+    margin-left: 55%;
+    margin-top: 8%;
+    z-index: 1;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#ThreeSlideShowsDiv{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#ThreeSlideShowsDiv>div{
+    width: 22%;
+    margin-left: 8%;
+}
+
+
+.contentInSlidesThree{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 2%;
+    align-items: center;
+}
+
+.contentP{
+    margin: 0px;
+    padding: 2px;
+}
+.imgsInSlides{
+    width: 100%;
+    height: 250px;
+}
+
+.caption{
+    background-color: green;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    margin-top: -1%;
+    margin-left: -1%;
+    padding: 0.5%;
+}
+
+#fpSecond{
+    position: relative;
+    padding: 3%;
+    border-top: 15px solid green;
+    border-bottom: 15px solid green;
+    margin-bottom: 2%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 6vw;
+    right: 12vw;
+    background-color: rgb(229, 226, 226);
+    color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 30vw;
+    height: 30vw;
+    font-size: 2.25vw;
+  }
+
+.text{
+    font-size: 45px;
+    color: #333;
+}
+
+/*Media Queries*/
+
+@media(max-width:600px){
+    .slideshowContainerMain{
+        height: 300px;
+        padding-top: 15px;
+    }
+    .mySlides{
+        height: 250px;
+        flex-direction: column;
+    }
+    .left{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        height: 70%;
+    }
+    .right{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .prevclass, .nextclass {
+        /* padding: 0px;
+        top: 20%; */
+        display: none;
+    }
+    #ThreeSlideShowsDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #ThreeSlideShowsDiv>div{
+        margin-bottom: 2%;
+        width: 100%;
+        margin-left:0%;
+    }
+}
